@@ -48,9 +48,12 @@ body {
   padding-top: 1.5rem;
   padding-bottom: 16px; /* For older browsers */
   padding-bottom: 1rem;
+  
 }
 
 .sg-sidebar {
+  position: sticky !important;
+  overflow: scroll !important;
   background: #3d3d3d;
   color: #fff;
   font-size: 80%;
@@ -233,6 +236,8 @@ body {
 
 .sg-nav-group,
 .sg-nav-group li {
+  font-size: 10px;
+  line-height: 1.1;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -248,7 +253,7 @@ body {
   color: #fff;
   display: block;
   font-size: 1.2em;
-  padding: .35em 0 .35em .5em;
+  padding: 0 0 .35em .5em;
   text-decoration: none;
   text-transform: capitalize;
   -webkit-transition: all .15s ease-in;
